@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "pages/*": ["cypress/pages/*"],
+      "setters/*": ["cypress/pages/setters/*"]
+    }
+  },
+  "include": ["cypress/**/*.js"]
+}
